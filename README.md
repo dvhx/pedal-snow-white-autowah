@@ -27,8 +27,8 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
 
 # Gerbers
 
-- [gerbers.zip](kicad/gerbers.zip) - main PCB
-- [gerbers-pots.zip](kicad_pot_daughterboard/gerbers-pots.zip) - pot daugterboards (you can also use perfboard or stripboard)
+- [gerbers.zip](raw/refs/heads/master/kicad/gerbers.zip) - main PCB
+- [gerbers-pots.zip](raw/refs/heads/master/kicad_pot_daughterboard/gerbers-pots.zip) - pot daugterboards (you can also use perfboard or stripboard)
 
 # Photos
 
