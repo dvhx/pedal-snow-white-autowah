@@ -7,7 +7,7 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
 - Top mounted jacks
 - Center-negative DC barrel jack
 - Perfect pedal layout:
-    - all on 1 pcb
+    - one big pcb
     - no offboard wiring
     - easy insertion into enclosure
     - easy testing outside of enclosure (including pots and stomp switch!)
@@ -28,6 +28,7 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
 
 ## PCB
 
+![PCB from various angles](photo/pcb/rotated2.jpg)
 ![Bottom side of the PCB](photo/pcb/bottom.jpg)
 ![PCB inside enclosure](photo/pcb/inside.jpg)
 ![6.35mm audio jacks and DC barrel jack](photo/pcb/jacks.jpg)
@@ -35,14 +36,6 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
 ![PCB from the side](photo/pcb/side.jpg)
 ![PCB from the front](photo/pcb/switch.jpg)
 ![Switch viewed from the side](photo/pcb/switch_led_and_grounding.jpg)
-![PCB from various angles](photo/pcb/rotated1.jpg)
-![PCB from various angles](photo/pcb/rotated2.jpg)
-![PCB from various angles](photo/pcb/rotated3.jpg)
-![PCB from various angles](photo/pcb/rotated4.jpg)
-![PCB from various angles](photo/pcb/rotated5.jpg)
-![PCB from various angles](photo/pcb/rotated6.jpg)
-![PCB from various angles](photo/pcb/rotated7.jpg)
-![PCB from various angles](photo/pcb/rotated8.jpg)
 
 ## Enclosure
 
