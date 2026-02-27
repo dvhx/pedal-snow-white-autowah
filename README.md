@@ -103,8 +103,8 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
 
     [<img src="photo/build/thumb/autowah_pots_drill_template.jpg">](photo/build/autowah_pots_drill_template.jpg)
 
-    - Tape spare pcb to the top, use tiny NPTH holes to pre-drill with 1mm drill, then drill with 7mm drill for the pots (use do it in two steps, drill 3mm then 7mm)
-    - Drill 2mm hole for the dimple in front of each pot (or snip it off with pliers)
+    - Tape spare pcb to the top, use tiny NPTH holes to pre-drill with 1mm drill, then drill with 8mm drill for the pots (use do it in two steps, drill 4mm then 8mm)
+    - Snip off the dimple in front of each pot (with side-cut pliers)
     - Insert PCB with all 4 pot daughterboards into enclosure, tighten 4 pot nuts and also tighten main switch nut (from the bottom use other nut as a stopper),
       then solder pot daugterboards into the pcb, this will be their final position be accurate
 - Drill 10mm holes for 2 audio jacks (there are two holes marging center of axis of jacks, one is marked 17.72 which is distance from bottom of enclosure)
