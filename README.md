@@ -78,8 +78,8 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
         - Jacks are on top side
         - They are well seated
     - Solder main 3P2T switch (on top side, well seated)
-    - Test with guitar and power on, when effect is off it should work as true bypass, when the effect is off you should not hear anything
-        Or use continuity tester, when efect is on, JIN shorts to IN, JOUT shorts to OUT
+    - Test with guitar and power on, when effect is off it should work as true bypass, when the effect is off you should not hear anything.
+        Or use continuity tester, when efect is on, JIN shorts to IN, JOUT shorts to OUT.
         When effect is off JIN shorts to JOUT and IN shorts to ground
 - Solder JGND1 and test if it goes easily into enclosure, but still should be touching it, making contact, bend the contact more/less to adjust the force.
 - If you ever plan to use internal battery (or sell the pedal), solder U99 JST-XH connector and test it now. The power on led will only shine if the input audio mono jack is in.
@@ -91,17 +91,17 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
     [<img src="photo/build/thumb/autowah_pots.jpg">](photo/build/autowah_pots.jpg)
 
     Note: I designed this before I knew actual height of everything so I had to make daughterboards from perfboard,
-            but you can now use real PCB daugterboards now: [kicad_pot_daugterboard/](kicad_pot_daugterboard/)
-            The key issue here that the daugterboard is so tall that the top of the pot thread
+            but you can now use real PCB daugterboards: [kicad_pot_daugterboard/](kicad_pot_daugterboard/).
+            The key issue to keep in mind is that the daugterboard is so tall that the top of the pot thread
             aligns with the top of the switch threads when the pot daughterboard is resting on the pcb.
             In my case, for my pots, it was exactly 4 holes on the perfboard.
             Make 4 identical daugterboards for the 4 pots but don't solder them yet into the pcb.
-- Drill four 8mm holes for the pots
+- Drill four 8mm holes for the pots.
     On the PCB there are 4 tiny non-plated through holes (NPTH) that are aligned with the axle of the pot, you can use this holes as a drill teplate for the enclosure.
     When you put pot with daugterboard on the side atop of the pcb you can see that the drill template holes are aligned with the pot axle, and that the pin header pins are
     aligned with the pot footprint holes where it will be then soldered.
 
-      [<img src="photo/build/thumb/autowah_pots_drill_template.jpg">](photo/build/autowah_pots_drill_template.jpg)
+    [<img src="photo/build/thumb/autowah_pots_drill_template.jpg">](photo/build/autowah_pots_drill_template.jpg)
 
     - Tape spare pcb to the top, use tiny NPTH holes to pre-drill with 1mm drill, then drill with 7mm drill for the pots (use do it in two steps, drill 3mm then 7mm)
     - Drill 2mm hole for the dimple in front of each pot (or snip it off with pliers)
