@@ -39,11 +39,11 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
 
 ## Enclosure
 
-![Enclosure, face view](photo/enclosure/face_view.jpg)
-![Enclosure, from the jacks](photo/enclosure/from_jacks.jpg)
-![Enclosure, jacks detail](photo/enclosure/jacks.jpg)
-![Enclosure, effect on](photo/enclosure/light_pipe_effect_on.jpg)
-![Enclosure, power on](photo/enclosure/light_pipe_power_on.jpg)
+[<img src="photo/pcb/thumb/face_view.jpg">](photo/pcb/face_view.jpg)
+[<img src="photo/pcb/thumb/from_jacks.jpg">](photo/pcb/from_jacks.jpg)
+[<img src="photo/pcb/thumb/jacks.jpg">](photo/pcb/jacks.jpg)
+[<img src="photo/pcb/thumb/light_pipe_effect_on.jpg">](photo/pcb/light_pipe_effect_on.jpg)
+[<img src="photo/pcb/thumb/light_pipe_power_on.jpg">](photo/pcb/light_pipe_power_on.jpg)
 
 # Build instructions
 
@@ -87,7 +87,7 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
 - Drill the enclosure, Use spare pcb to mark where the holes will be.
     - 12.7mm hole for main 3PDT switch
 - Solder 4 pots on their adapter boards. Before you solder them make sure that 3PDT switch have enough thread for given pot height.
-    ![Autowah pots](photos/build/autowah_pots.jpg)
+    [<img src="photo/build/thumb/autowah_pots.jpg">](photo/build/autowah_pots.jpg)
     Note: I designed this before I knew actual height of everything so I had to make daughterboards from perfboard,
             but you can now use real PCB daugterboards now: [kicad_pot_daugterboard/](kicad_pot_daugterboard/)
             The key issue here that the daugterboard is so tall that the top of the pot thread
@@ -98,7 +98,7 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
     On the PCB there are 4 tiny non-plated through holes (NPTH) that are aligned with the axle of the pot, you can use this holes as a drill teplate for the enclosure.
     When you put pot with daugterboard on the side atop of the pcb you can see that the drill template holes are aligned with the pot axle, and that the pin header pins are
     aligned with the pot footprint holes where it will be then soldered.
-      ![autowah pots drill template](photos/build/autowah_pots_drill_template.jpg)
+      [<img src="photo/build/thumb/autowah_pots_drill_template.jpg">](photo/build/autowah_pots_drill_template.jpg)
       Tape spare pcb to the top, use tiny NPTH holes to pre-drill with 1mm drill, then drill with 7mm drill for the pots (use do it in two steps, drill 3mm then 7mm)
     - Drill 2mm hole for the dimple in front of each pot (or snip it off with pliers)
     - Insert PCB with all 4 pot daughterboards into enclosure, tighten 4 pot nuts and also tighten main switch nut (from the bottom use other nut as a stopper),
@@ -149,17 +149,17 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
     - Solder R12 R13 D4 D5 and U6 opamp
     - When playing sinewave you should see bottom half of the sinewave on the test point ED1
         - Sinewave at EDIN
-        ![autowah_edinb](photos/build/autowah_edinb.jpg)
+        [<img src="photo/build/thumb/autowah_edinb.jpg">](photo/build/autowah_edinb.jpg)
         - Signal at ED1 testpoint
-        ![autowah_ed1b](photos/build/autowah_ed1b.jpg)
+        [<img src="photo/build/thumb/autowah_ed1b.jpg">](photo/build/autowah_ed1b.jpg)
     - Solder R14 and R17, ED1 (and top pin of C8) will now have saggy bottom signal:
-        ![autowah_ed1_saggy_bottom](photos/build/autowah_ed1_saggy_bottom.jpg)
+        [<img src="photo/build/thumb/autowah_ed1_saggy_bottom.jpg">](photo/build/autowah_ed1_saggy_bottom.jpg)
     - Solder C15 and measure 9V on it
     - Solder R15 R16 C8 and U7 opamp
     - Measure consumption (6.6mA)
     - When you play simple strums, ED2 test point should already show envelope (lower the timebase of scope to see the envelope)
         Here is 3-strings strum decaying over 4s or so. Sensitivity to 11 o-clock. Amplitude is virtually full scale from 0 to almost 9V.
-        ![autowah_ed2_strum](photos/build/autowah_ed2_strum.jpg)
+        [<img src="photo/build/thumb/autowah_ed2_strum.jpg">](photo/build/autowah_ed2_strum.jpg)
 - Decay speed
     - Solder R18 D6 R19 C9
     cc- Testpoint DEC will show same envelope as ED2, but the decay will be slower or faster depending on the Decay pot position
