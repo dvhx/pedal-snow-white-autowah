@@ -28,9 +28,9 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
 
 ## PCB
 
-[![PCB from various angles](photo/pcb/thumb/rotated2.jpg)](photo/pcb/rotated2.jpg)
-[![Bottom side of the PCB](photo/pcb/thumb/bottom.jpg)](photo/pcb/bottom.jpg)
-[![PCB inside enclosure](photo/pcb/thumb/inside.jpg)(photo/pcb/inside.jpg)]
+[<img src="photo/pcb/thumb/rotated2.jpg">](photo/pcb/rotated2.jpg)
+[<img src="photo/pcb/thumb/bottom.jpg">](photo/pcb/bottom.jpg)
+[<img src="photo/pcb/thumb/inside.jpg">](photo/pcb/inside.jpg)
 ![6.35mm audio jacks and DC barrel jack](photo/pcb/jacks.jpg)
 ![Audio jacks and pots daughterboards from the side](photo/pcb/jacks_side.jpg)
 ![PCB from the side](photo/pcb/side.jpg)
