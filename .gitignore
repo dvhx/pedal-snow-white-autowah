@@ -29,3 +29,4 @@ fp-info-cache
 *.kicad_prl
 
 kicad/gerbers
+kicad_pot_daugterboard/gerbers-pots

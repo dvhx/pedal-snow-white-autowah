@@ -56,8 +56,11 @@
         }
       ],
       "drc_exclusions": [
-        "lib_footprint_mismatch|149500000|74810000|7e0aa231-a0dd-4f00-9f80-ed1d806c14e3|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|149580000|101200000|a4908ec3-582d-4311-9458-7e11c47ac21c|00000000-0000-0000-0000-000000000000"
+        "lib_footprint_mismatch|149580000|101200000|a4908ec3-582d-4311-9458-7e11c47ac21c|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|144700000|76700000|d93bf3ff-f77c-47c4-abe6-ba84ef1158eb|2400e213-16be-434f-aae4-f527b0182e7d",
+        "silk_edge_clearance|150400000|76700000|d93bf3ff-f77c-47c4-abe6-ba84ef1158eb|be449500-7acb-4f85-b859-f1b52aecdd5c",
+        "silk_edge_clearance|152000000|76700000|d93bf3ff-f77c-47c4-abe6-ba84ef1158eb|295b2d12-66ae-4e83-a06b-46cb17259d0b",
+        "silk_edge_clearance|152946000|76700000|d93bf3ff-f77c-47c4-abe6-ba84ef1158eb|6e986849-52a4-423c-b0b6-cc0e01aa29a3"
       ],
       "meta": {
         "version": 2
