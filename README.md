@@ -92,7 +92,8 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
     [<img src="photo/build/thumb/autowah_pots.jpg">](photo/build/autowah_pots.jpg)
 
     Note: I designed this before I knew actual height of everything so I had to make daughterboards from perfboard,
-            but you can now use real PCB daugterboards: [kicad_pot_daugterboard/](kicad_pot_daugterboard/).
+            but you can now use real PCB daugterboards: [kicad_pot_daugterboard/](kicad_pot_daugterboard/):
+            [<img src="kicad_pot_daugterboard/thumb/pot.png">](kicad_pot_daugterboard/pot.png)
             The key issue to keep in mind is that the daugterboard is so tall that the top of the pot thread
             aligns with the top of the switch threads when the pot daughterboard is resting on the pcb.
             In my case, for my pots, it was exactly 4 holes on the perfboard.
