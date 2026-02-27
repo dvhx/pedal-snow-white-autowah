@@ -28,14 +28,14 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
 
 ## PCB
 
-[<img src="./photo/pcb/thumb/rotated2.jpg">](./photo/pcb/rotated2.jpg)
-[<img src="./photo/pcb/thumb/bottom.jpg">](./photo/pcb/bottom.jpg)
-[<img src="./photo/pcb/thumb/inside.jpg">](./photo/pcb/inside.jpg)
-![6.35mm audio jacks and DC barrel jack](photo/pcb/jacks.jpg)
-![Audio jacks and pots daughterboards from the side](photo/pcb/jacks_side.jpg)
-![PCB from the side](photo/pcb/side.jpg)
-![PCB from the front](photo/pcb/switch.jpg)
-![Switch viewed from the side](photo/pcb/switch_led_and_grounding.jpg)
+[<img src="photo/pcb/thumb/rotated2.jpg">](photo/pcb/rotated2.jpg)
+[<img src="photo/pcb/thumb/bottom.jpg">](photo/pcb/bottom.jpg)
+[<img src="photo/pcb/thumb/inside.jpg">](photo/pcb/inside.jpg)
+[<img src="photo/pcb/thumb/jacks.jpg">](photo/pcb/jacks.jpg)
+[<img src="photo/pcb/thumb/jacks_side.jpg">](photo/pcb/jacks_side.jpg)
+[<img src="photo/pcb/thumb/side.jpg">](photo/pcb/side.jpg)
+[<img src="photo/pcb/thumb/switch.jpg">](photo/pcb/switch.jpg)
+[<img src="photo/pcb/thumb/switch_led_and_grounding.jpg">](photo/pcb/switch_led_and_grounding.jpg)
 
 ## Enclosure
 
