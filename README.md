@@ -58,11 +58,11 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
         - Solder ZD99 9.1V zenner BZT52B9V1S, marking 2WE (any zenner from 3-12V can be used), line is cathode = tip of the white triangle
         - Solder R99 10k (some recommend 100k, with 10k reverse transient is shorter and smaller, but forward current draw is higher, depending on zener)
         - Test polarity protection
-            - Connect regulated power supply via JDC1. Use one ammeter (in series) and one voltmeter (negative lead to GND loop testpoint, positive lead to + hole of D99)
+            - Connect regulated power supply via JDC1. Use one ammeter (in series) and one voltmeter (negative lead to GND loop testpoint, positive lead to + pin of LED D99)
             - Start at 0V and slowly rise the voltage to 9V, the voltage on D99 should closely follow the input voltage.
                  Current should be small as there is no load, few microamps.
                  Depenging on your zener it can be up to Vin/R99, e.g. at 9V/10k=900uA, mine was 400uA with 10k R99
-            - Return to 0V and raise negative voltage to -9V. Output should be 0V (I have -0.07V, probably leakage of zener diode and mosfet).
+            - Return to 0V and raise negative voltage to -9V. Output should be 0V (I have -0.07V, probably leakage of zener diode, mosfet and voltmeter itself).
             - When you try positive voltage now it should still works.
     - In front of the JDC1 there are 2 holes, you can solder 0.5mm tined copper wire loop across and over the top of the JDC1 connector to reduce the side-to-side strain
     - Solder "Power on" red LED D99 and it's current limiting resistor R98 (4k7).
@@ -73,10 +73,10 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
 - True bypass
     - Cut 0.3mm of the plastic from the front left corner of the JOUT1 and front right corner of the JIN1 jacks
     - Solder JIN, JOUT jacks, make sure of 4 things:
-          - Cut corners are on the outside
-          - Holes are in front
-          - Jacks are on top side
-          - They are well seated
+        - Cut corners are on the outside
+        - Holes are in front
+        - Jacks are on top side
+        - They are well seated
     - Solder main 3P2T switch (on top side, well seated)
     - Test with guitar and power on, when effect is off it should work as true bypass, when the effect is off you should not hear anything
         Or use continuity tester, when efect is on, JIN shorts to IN, JOUT shorts to OUT
