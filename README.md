@@ -58,12 +58,12 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
         - Solder ZD99 9.1V zenner BZT52B9V1S, marking 2WE (any zenner from 3-12V can be used), line is cathode = tip of the white triangle
         - Solder R99 10k (some recommend 100k, with 10k reverse transient is shorter and smaller, but forward current draw is higher, depending on zener)
         - Test polarity protection
-               - Connect regulated power supply via JDC1. Use one ammeter (in series) and one voltmeter (negative lead to GND loop testpoint, positive lead to + hole of D99)
-               - Start at 0V and slowly rise the voltage to 9V, the voltage on D99 should closely follow the input voltage.
+            - Connect regulated power supply via JDC1. Use one ammeter (in series) and one voltmeter (negative lead to GND loop testpoint, positive lead to + hole of D99)
+            - Start at 0V and slowly rise the voltage to 9V, the voltage on D99 should closely follow the input voltage.
                  Current should be small as there is no load, few microamps.
                  Depenging on your zener it can be up to Vin/R99, e.g. at 9V/10k=900uA, mine was 400uA with 10k R99
-               - Return to 0V and raise negative voltage to -9V. Output should be 0V (I have -0.07V, probably leakage of zener diode and mosfet).
-               - When you try positive voltage now it should still works.
+            - Return to 0V and raise negative voltage to -9V. Output should be 0V (I have -0.07V, probably leakage of zener diode and mosfet).
+            - When you try positive voltage now it should still works.
     - In front of the JDC1 there are 2 holes, you can solder 0.5mm tined copper wire loop across and over the top of the JDC1 connector to reduce the side-to-side strain
     - Solder "Power on" red LED D99 and it's current limiting resistor R98 (4k7).
     - Power it via ammeter (consumption could be 1.5mA), test point +9V (next to C99) should have approx. 9V
@@ -103,7 +103,7 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
 
       [<img src="photo/build/thumb/autowah_pots_drill_template.jpg">](photo/build/autowah_pots_drill_template.jpg)
 
-      Tape spare pcb to the top, use tiny NPTH holes to pre-drill with 1mm drill, then drill with 7mm drill for the pots (use do it in two steps, drill 3mm then 7mm)
+    - Tape spare pcb to the top, use tiny NPTH holes to pre-drill with 1mm drill, then drill with 7mm drill for the pots (use do it in two steps, drill 3mm then 7mm)
     - Drill 2mm hole for the dimple in front of each pot (or snip it off with pliers)
     - Insert PCB with all 4 pot daughterboards into enclosure, tighten 4 pot nuts and also tighten main switch nut (from the bottom use other nut as a stopper),
       then solder pot daugterboards into the pcb, this will be their final position be accurate
