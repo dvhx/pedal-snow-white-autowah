@@ -39,11 +39,11 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
 
 ## Enclosure
 
-[<img src="photo/pcb/thumb/face_view.jpg">](photo/pcb/face_view.jpg)
-[<img src="photo/pcb/thumb/from_jacks.jpg">](photo/pcb/from_jacks.jpg)
-[<img src="photo/pcb/thumb/jacks.jpg">](photo/pcb/jacks.jpg)
-[<img src="photo/pcb/thumb/light_pipe_effect_on.jpg">](photo/pcb/light_pipe_effect_on.jpg)
-[<img src="photo/pcb/thumb/light_pipe_power_on.jpg">](photo/pcb/light_pipe_power_on.jpg)
+[<img src="photo/enclosure/thumb/face_view.jpg">](photo/enclosure/face_view.jpg)
+[<img src="photo/enclosure/thumb/from_jacks.jpg">](photo/enclosure/from_jacks.jpg)
+[<img src="photo/enclosure/thumb/jacks.jpg">](photo/enclosure/jacks.jpg)
+[<img src="photo/enclosure/thumb/light_pipe_effect_on.jpg">](photo/enclosure/light_pipe_effect_on.jpg)
+[<img src="photo/enclosure/thumb/light_pipe_power_on.jpg">](photo/enclosure/light_pipe_power_on.jpg)
 
 # Build instructions
 
