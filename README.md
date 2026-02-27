@@ -18,11 +18,12 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
 
 # Schematic
 
-[![Schematic](kicad/schematic_small.png)](kicad/schematic.png)
+[<img src="kicad/thumb/schematic-1.png">](kicad/schematic-1.png)
+[<img src="kicad/thumb/schematic-2.png">](kicad/schematic-2.png)
 
 # PCB
 
-[![PCB](kicad/pcb_small.png)](kicad/pcb.png)
+[<img src="kicad/thumb/pcb.png">](kicad/pcb.png)
 
 # Photos
 
@@ -107,7 +108,7 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
     - Snip off the dimple in front of each pot (with side-cut pliers)
     - Insert PCB with all 4 pot daughterboards into enclosure, tighten 4 pot nuts and also tighten main switch nut (from the bottom use other nut as a stopper),
       then solder pot daugterboards into the pcb, this will be their final position be accurate
-- Drill 10mm holes for 2 audio jacks (there are two holes marging center of axis of jacks, one is marked 17.72 which is distance from bottom of enclosure)
+- Drill 10mm holes for 2 audio jacks (there are two holes marking center of axis of jacks, one is marked 17.72 which is distance from bottom of enclosure)
 - Drill 10mm hole for DC barrel jack (simply 15.5mm from the bottom in the center)
 - Drill 1 or 2 holes for light pipes (mine were 2.3mm, your may be different)
 - Test the insertion into enclosure. Make the inserting as smooth and easy as possible at this stage so that you don't damage finished pedal later.
@@ -192,21 +193,21 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
     - Solder C10, C13, R22, R23, R24, R27, R31, R25, R26, R28, R32, R33
     - Measure consumption (10.54mA)
     - Without input singal and with pots at 12-o'clock measure pin voltages of LM13700 footprint (LM13700 not yet soldered, just a doublechceck)
-        Pin1 = 5V (top left)
-        Pin2 = 0V
-        Pin3 = 4.5V
-        Pin4 = 4.31V
-        Pin5 = 0V
-        Pin6 = 0V
-        Pin7 = 0V
-        Pin8 = 2.34V (bottom left)
-        Pin9 = 2.15V (bottom right)
-        Pin10 = 0V
-        Pin11 = 9V
-        Pin12 = 0V
-        Pin13 = 4.5V
-        Pin14 = 4.34V
-        Pin15 = 0V
+        Pin1 = 5V (top left),
+        Pin2 = 0V,
+        Pin3 = 4.5V,
+        Pin4 = 4.31V,
+        Pin5 = 0V,
+        Pin6 = 0V,
+        Pin7 = 0V,
+        Pin8 = 2.34V (bottom left),
+        Pin9 = 2.15V (bottom right),
+        Pin10 = 0V,
+        Pin11 = 9V,
+        Pin12 = 0V,
+        Pin13 = 4.5V,
+        Pin14 = 4.34V,
+        Pin15 = 0V,
         Pin16 = 5V (top right)
     - Solder LM13700
     - Solder C11, C12
