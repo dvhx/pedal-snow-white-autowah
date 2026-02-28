@@ -16,6 +16,10 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
     - Gerber files
     - Artwork
 
+# Sample
+
+- [Short sample on Youtube](https://www.youtube.com/embed/3BYL_riq4po)
+
 # Schematic
 
 [<img src="kicad/thumb/schematic-1.png">](kicad/schematic-1.png)
@@ -47,7 +51,7 @@ The rest of the parts is available on aliexpress:
 - [Model Enclosure_125B, $7.85/pcs](https://s.click.aliexpress.com/e/_c33GoZ8r)
 - [Switch_3P2T Switch_3PDT, $2.13/pcs](https://s.click.aliexpress.com/e/_c2vpDqzN)
 
-Total parts cost including shipping, PCB manufacturing, spray paint and artwork sticker is approx $50.
+Total parts cost including shipping, PCB manufacturing, enclosure, spray paint and artwork sticker is approx $50.
 
 # Photos
 
