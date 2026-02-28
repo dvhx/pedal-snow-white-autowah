@@ -207,7 +207,7 @@
       (net 4 "/+9V") (pinfunction "1") (pintype "passive") (tstamp 7c0a2db7-5e62-4fc3-bfca-53e837919f90))
     (pad "2" smd roundrect locked (at 0 1.016) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "GND") (pinfunction "2") (pintype "passive") (tstamp 351e408b-3645-467b-b6b0-befe3d139b78))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/C_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/C_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.6937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -243,7 +243,7 @@
       (net 8 "Net-(C6-Pad1)") (pinfunction "1") (pintype "passive") (tstamp 84a8c31c-a1b5-4b68-a84a-b1f28b4fcbf6))
     (pad "2" thru_hole circle locked (at 2.54 0 90) (size 1.5 1.5) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 9 "BUF") (pinfunction "2") (pintype "passive") (tstamp b84e125b-51db-43fa-a0fc-6e11ba31352f))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/C_foil_W7.2H6.5T2.5P5.08D0.45mm.wrl"
+    (model "${KIPRJMOD}/3d_models/C_foil_W7.2H6.5T2.5P5.08D0.45mm.wrl"
       (offset (xyz 0 0 0.1))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
@@ -288,7 +288,7 @@
       (net 59 "Net-(D1-PadA)") (pinfunction "A") (pintype "passive") (tstamp 97f74020-fe32-42ea-ac93-b9641b5f4a2e))
     (pad "K" smd roundrect locked (at 0 1.066 180) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 14 "Net-(C9-PadP)") (pinfunction "K") (pintype "passive") (tstamp 36885ba2-7911-402b-a653-14a88d56eb51))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/Diode_SOD-323.wrl"
+    (model "${KIPRJMOD}/3d_models/Diode_SOD-323.wrl"
       (offset (xyz 0.65 -0.85 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 -90))
@@ -353,7 +353,7 @@
       (net 17 "Net-(C12-Pad1)") (pinfunction "1") (pintype "passive") (tstamp 01e7e7c6-d522-447d-9dd7-90cb0905e5ea))
     (pad "2" thru_hole circle locked (at 2.54 0 270) (size 1.5 1.5) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 3 "GND") (pinfunction "2") (pintype "passive") (tstamp 38e6745c-e62a-4433-90c0-4ad716e2de1f))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/C_foil_W7.2H6.5T2.5P5.08D0.45mm.wrl"
+    (model "${KIPRJMOD}/3d_models/C_foil_W7.2H6.5T2.5P5.08D0.45mm.wrl"
       (offset (xyz 0 0 0.1))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
@@ -390,7 +390,7 @@
       (net 1 "5V") (pinfunction "1") (pintype "passive") (tstamp 03e3a577-80ce-4585-b8ce-5bff501b3e51))
     (pad "2" smd roundrect locked (at 0 1.016) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "GND") (pinfunction "2") (pintype "passive") (tstamp 21f0f204-9cb0-473a-844c-0220cdf24c0b))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/C_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/C_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.6937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -440,7 +440,7 @@
       (net 7 "Net-(U2A-+)") (pinfunction "+") (pintype "input") (tstamp 05ea7445-4661-4732-bc09-260d857a35b7))
     (pad "V" smd roundrect locked (at 1.195 -0.95 270) (size 0.6 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "/+9V") (pinfunction "V+") (pintype "power_in") (tstamp 3880b407-0a79-4170-9bbc-ed391f110f34))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/SOT-23-5.wrl"
+    (model "${KIPRJMOD}/3d_models/SOT-23-5.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 90))
@@ -477,7 +477,7 @@
       (net 40 "/Guitar effect/IN") (pinfunction "1") (pintype "passive") (tstamp e6c483ab-8452-4af2-a83f-2946f98859bf))
     (pad "2" smd roundrect locked (at 0 1.016) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 6 "Net-(C2-Pad2)") (pinfunction "2") (pintype "passive") (tstamp aea4361f-95ab-494f-a6f1-96b731a534cb))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -514,7 +514,7 @@
       (net 43 "Net-(R20-Pad1)") (pinfunction "1") (pintype "passive") (tstamp 0278c627-91fa-4dc1-8372-273d94c2f5ea))
     (pad "2" smd roundrect locked (at 0 1.016 180) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 39 "Net-(Q4-PadE)") (pinfunction "2") (pintype "passive") (tstamp b1af4550-df7e-437c-9e4e-5c73c558a55a))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -615,7 +615,7 @@
       (net 3 "GND") (pinfunction "1") (pintype "passive") (tstamp c7b605ae-3535-4a52-bfd6-9f1cb8480560))
     (pad "2" smd roundrect locked (at 0 1.016 270) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 9 "BUF") (pinfunction "2") (pintype "passive") (tstamp a231218e-a94e-4c44-859c-ea91ff2009c1))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -655,7 +655,7 @@
       (net 3 "GND") (pinfunction "N") (pintype "passive") (tstamp a9073b13-72db-4e40-aa13-9d773c7bb17f))
     (pad "P" thru_hole circle locked (at 0 -1) (size 1.524 1.524) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 14 "Net-(C9-PadP)") (pinfunction "P") (pintype "passive") (tstamp aa52d830-6111-4892-8b5e-f0fbca2e9d3c))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/C_polarized_D4H7P2D0.45mm.wrl"
+    (model "${KIPRJMOD}/3d_models/C_polarized_D4H7P2D0.45mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 90))
@@ -692,7 +692,7 @@
       (net 47 "Net-(U5A--)") (pinfunction "1") (pintype "passive") (tstamp 062f1587-2dbb-4dac-ad24-9ec4f488883e))
     (pad "2" smd roundrect locked (at 0 1.016 180) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 41 "VG") (pinfunction "2") (pintype "passive") (tstamp d56b4741-3aa6-4978-9a6b-59607c87a90c))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -732,7 +732,7 @@
       (net 18 "Net-(C13-PadN)") (pinfunction "N") (pintype "passive") (tstamp 4f38dd02-5cd0-4d14-ae13-bdbf2608292a))
     (pad "P" thru_hole circle locked (at 0 -1 270) (size 1.524 1.524) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 19 "Net-(C13-PadP)") (pinfunction "P") (pintype "passive") (tstamp 8e0621bd-fbb3-4445-8696-9d33b845360c))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/C_polarized_D4H7P2D0.45mm.wrl"
+    (model "${KIPRJMOD}/3d_models/C_polarized_D4H7P2D0.45mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 90))
@@ -790,7 +790,7 @@
       (net 3 "GND") (pinfunction "1") (pintype "passive") (tstamp d758674b-84f9-4c3f-8f0e-679dfd19dab6))
     (pad "1" thru_hole circle locked (at 4.5 3.2 90) (size 2.3 2.3) (drill 1.3) (layers "*.Cu" "*.Mask")
       (net 3 "GND") (pinfunction "1") (pintype "passive") (tstamp c2730717-a986-4db5-b9e7-8368f92650ce))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/Battery_contact_Keystone_590.wrl"
+    (model "${KIPRJMOD}/3d_models/Battery_contact_Keystone_590.wrl"
       (offset (xyz 4.52 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 90))
@@ -856,7 +856,7 @@
       (net 4 "/+9V") (pinfunction "1") (pintype "passive") (tstamp 4595f957-4b03-4e10-9182-0dd1ce6f1de1))
     (pad "2" smd roundrect locked (at 0 1.016) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "GND") (pinfunction "2") (pintype "passive") (tstamp 06a119ba-1146-48ff-a14d-b1c4920a09d6))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/C_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/C_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.6937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -892,7 +892,7 @@
       (net 5 "Net-(C2-Pad1)") (pinfunction "1") (pintype "passive") (tstamp 59ac4440-e226-4424-b951-3fdd91e7bb2b))
     (pad "2" thru_hole circle locked (at 2.54 0 270) (size 1.5 1.5) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 6 "Net-(C2-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 4196c0a6-fe10-4efb-bcc3-7d4f52084875))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/C_foil_W7.2H6.5T2.5P5.08D0.45mm.wrl"
+    (model "${KIPRJMOD}/3d_models/C_foil_W7.2H6.5T2.5P5.08D0.45mm.wrl"
       (offset (xyz 0 0 0.1))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
@@ -929,7 +929,7 @@
       (net 13 "Net-(U7A--)") (pinfunction "1") (pintype "passive") (tstamp e114d69b-0685-4c78-892c-253a81d82845))
     (pad "2" smd roundrect locked (at 0 1.016 90) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 12 "Net-(C8-Pad1)") (pinfunction "2") (pintype "passive") (tstamp f5d71d23-614b-49f7-98c2-7af229d7d035))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -966,7 +966,7 @@
       (net 3 "GND") (pinfunction "1") (pintype "passive") (tstamp f7f31c78-b384-4703-95c1-49a815445dea))
     (pad "2" smd roundrect locked (at 0 1.016) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 19 "Net-(C13-PadP)") (pinfunction "2") (pintype "passive") (tstamp ca18be5c-766a-4326-b3dd-5e63d2ee756a))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -1003,7 +1003,7 @@
       (net 10 "Net-(C7-Pad1)") (pinfunction "1") (pintype "passive") (tstamp ad1dcf61-fef5-494a-a03c-06af4625e07f))
     (pad "2" smd roundrect locked (at 0 1.016 90) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 13 "Net-(U7A--)") (pinfunction "2") (pintype "passive") (tstamp 76887383-4f2c-4f4b-962c-4418b45bb17f))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -1073,22 +1073,22 @@
       (net 49 "Net-(R29-Pad2)") (pinfunction "S") (pintype "passive") (tstamp 62e134e0-968c-44fd-ade2-d55f44e0eb41))
     (pad "W" thru_hole circle locked (at 2.54 0 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 48 "Net-(R27-Pad2)") (pinfunction "W") (pintype "passive") (tstamp 352d569c-d0cc-43c4-b55c-9d339e078d65))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/daughterboard_23.7.wrl"
+    (model "${KIPRJMOD}/3d_models/daughterboard_23.7.wrl"
       (offset (xyz -1.27 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
-    (model "/home/maly/dvhx-kicad-library-2/wrl/P_RK09712200MC.wrl"
+    (model "${KIPRJMOD}/3d_models/P_RK09712200MC.wrl"
       (offset (xyz -2.25 -1 21.25))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 90 0 0))
     )
-    (model "/home/maly/dvhx-kicad-library-2/wrl/pot_knob_Davies_1900H.wrl" hide
+    (model "${KIPRJMOD}/3d_models/pot_knob_Davies_1900H.wrl" hide
       (offset (xyz 2.5 5 29))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
-    (model "/home/maly/dvhx-kicad-library-2/wrl/Box_yellow.wrl"
+    (model "${KIPRJMOD}/3d_models/Box_yellow.wrl"
       (offset (xyz 2.3 5.1 46.5))
       (scale (xyz 0.5 0.5 50))
       (rotate (xyz 0 0 0))
@@ -1125,7 +1125,7 @@
       (net 4 "/+9V") (pinfunction "1") (pintype "passive") (tstamp fcd9ace8-b274-4561-8142-d6f8decadaf1))
     (pad "2" smd roundrect locked (at 0 1.016) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 60 "Net-(C19-Pad1)") (pinfunction "2") (pintype "passive") (tstamp 8c77b269-504e-4cce-9809-fa4783ea9da1))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -1162,7 +1162,7 @@
       (net 46 "Net-(U5A-+)") (pinfunction "1") (pintype "passive") (tstamp d0803bab-6c19-47e0-9ae0-c60150738db0))
     (pad "2" smd roundrect locked (at 0 1.016 180) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 41 "VG") (pinfunction "2") (pintype "passive") (tstamp 3f781c43-5857-41ce-8155-6df4cb73bf67))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -1199,7 +1199,7 @@
       (net 44 "Net-(U5C-+)") (pinfunction "1") (pintype "passive") (tstamp 9a7691ba-a2f4-4dca-814d-2655d7527e4a))
     (pad "2" smd roundrect locked (at 0 1.016) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 41 "VG") (pinfunction "2") (pintype "passive") (tstamp 42858224-c4a6-48cc-be9c-ce8fc2490614))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -1244,7 +1244,7 @@
       (net 22 "Net-(D5-PadA)") (pinfunction "A") (pintype "passive") (tstamp c1fa3a3b-1547-4311-b1da-8baf43427042))
     (pad "K" smd roundrect locked (at 0 1.066) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 20 "Net-(D4-PadA)") (pinfunction "K") (pintype "passive") (tstamp d1bc76b5-fae4-428e-9b83-6aa2d7f65490))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/Diode_SOD-323.wrl"
+    (model "${KIPRJMOD}/3d_models/Diode_SOD-323.wrl"
       (offset (xyz 0.65 -0.85 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 -90))
@@ -1310,7 +1310,7 @@
       (net 45 "Net-(U5C--)") (pinfunction "1") (pintype "passive") (tstamp 202ffa34-5480-412f-ba52-69efccd9c7f9))
     (pad "2" smd roundrect locked (at 0 1.016 180) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 19 "Net-(C13-PadP)") (pinfunction "2") (pintype "passive") (tstamp 982cf2da-3af4-4c0b-83b6-e2f9b78b17f6))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -1347,7 +1347,7 @@
       (net 18 "Net-(C13-PadN)") (pinfunction "1") (pintype "passive") (tstamp 1fc45755-faef-4c40-8ca7-7caf044a2b32))
     (pad "2" smd roundrect locked (at 0 1.016) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 50 "/Guitar effect/OUT") (pinfunction "2") (pintype "passive") (tstamp e28aad84-369d-428f-b1bd-b6fe70afa482))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -1384,7 +1384,7 @@
       (net 4 "/+9V") (pinfunction "1") (pintype "passive") (tstamp d3aed34d-0b7c-4698-86de-9ffc5e346777))
     (pad "2" smd roundrect locked (at 0 1.016) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "GND") (pinfunction "2") (pintype "passive") (tstamp 98067273-e5b4-45a0-9602-8fba4263353a))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/C_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/C_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.6937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -1421,7 +1421,7 @@
       (net 3 "GND") (pinfunction "1") (pintype "passive") (tstamp cc285b29-4c0c-475d-a85e-f8fbb9a2b309))
     (pad "2" smd roundrect locked (at 0 1.016) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 55 "Net-(D99-PadK)") (pinfunction "2") (pintype "passive") (tstamp bc827837-85d6-45a9-9bbb-54df809633a2))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -1474,7 +1474,7 @@
       (net 4 "/+9V") (pinfunction "A") (pintype "passive") (tstamp 8281c03a-028c-413b-b4f2-c1a1cf0ea5fb))
     (pad "K" thru_hole rect locked (at 0 1.337919) (size 1.524 1.524) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 55 "Net-(D99-PadK)") (pinfunction "K") (pintype "passive") (tstamp 055c0063-3153-4305-9726-a23543ced702))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/D_LED_3mm.wrl"
+    (model "${KIPRJMOD}/3d_models/D_LED_3mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -1511,7 +1511,7 @@
       (net 58 "Net-(R97-Pad1)") (pinfunction "1") (pintype "passive") (tstamp 87fc0710-eba3-41d8-8aeb-a63421211e08))
     (pad "2" smd roundrect locked (at 0 1.016 180) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 54 "Net-(D98-PadK)") (pinfunction "2") (pintype "passive") (tstamp 9e502682-86e6-4fe3-945f-53125a847d9c))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -1548,7 +1548,7 @@
       (net 8 "Net-(C6-Pad1)") (pinfunction "1") (pintype "passive") (tstamp 78df2eb6-dc21-4fc0-9424-d1323519549d))
     (pad "2" smd roundrect locked (at 0 1.016 270) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 42 "Net-(U3A--)") (pinfunction "2") (pintype "passive") (tstamp 28ab46c4-4092-42fa-97ea-75afc30611b3))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -1585,7 +1585,7 @@
       (net 60 "Net-(C19-Pad1)") (pinfunction "1") (pintype "passive") (tstamp d3db3484-8f47-4e21-96db-053d8566f1c0))
     (pad "2" smd roundrect locked (at 0 1.016) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "GND") (pinfunction "2") (pintype "passive") (tstamp e7f9318c-d4af-42f5-aa6e-1091b6229ac7))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/C_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/C_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.6937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -1649,7 +1649,7 @@
       (net 3 "GND") (pinfunction "1") (pintype "passive") (tstamp b0a5f2b0-a523-4352-986f-bc8f356266d0))
     (pad "2" smd roundrect locked (at 0 1.016 180) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 6 "Net-(C2-Pad2)") (pinfunction "2") (pintype "passive") (tstamp d93e264f-be78-43e0-8171-67d8dffb44a3))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -1682,7 +1682,7 @@
       (stroke (width 0.12) (type solid)) (layer "F.Fab") (tstamp 58f0afa3-af40-4a0c-898b-74e625e8d236))
     (fp_line (start 0 0) (end 0.508 0)
       (stroke (width 0.12) (type solid)) (layer "F.Fab") (tstamp 40bc3b48-fd87-4ac0-bf5e-d5768b4e744a))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/Enclosure_1590N1.wrl"
+    (model "${KIPRJMOD}/3d_models/Enclosure_1590N1.wrl"
       (opacity 0.4500)      (offset (xyz -8.75 -2.5 -10))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
@@ -1719,7 +1719,7 @@
       (net 7 "Net-(U2A-+)") (pinfunction "1") (pintype "passive") (tstamp 51ce702b-0a57-4dbd-b442-2d7c81f91c9c))
     (pad "2" smd roundrect locked (at 0 1.016) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "GND") (pinfunction "2") (pintype "passive") (tstamp 22cb6573-8c79-4428-b48f-1a51ab51a979))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/C_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/C_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.6937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -1843,7 +1843,7 @@
       (net 22 "Net-(D5-PadA)") (pinfunction "1") (pintype "passive") (tstamp 1b4b8584-ac46-4a94-801c-4a01da007617))
     (pad "2" smd roundrect locked (at 0 1.016 270) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 13 "Net-(U7A--)") (pinfunction "2") (pintype "passive") (tstamp 09b42cc4-b96b-412b-8e98-eb3c3c8bb58c))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -1880,7 +1880,7 @@
       (net 43 "Net-(R20-Pad1)") (pinfunction "1") (pintype "passive") (tstamp 43ddb641-6b91-46af-add1-6ea0f1a941b6))
     (pad "2" smd roundrect locked (at 0 1.016) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "Net-(Bias1-PadS)") (pinfunction "2") (pintype "passive") (tstamp 7a9f9393-da72-467a-87f9-d83aeeec4eb3))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -1998,7 +1998,7 @@
       (net 4 "/+9V") (pinfunction "1") (pintype "passive") (tstamp 834c9a26-54c3-442a-9884-6982852b0c04))
     (pad "2" smd roundrect locked (at 0 1.016 270) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "GND") (pinfunction "2") (pintype "passive") (tstamp 39a56f63-6bf7-4d71-8209-e428972e86a4))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/C_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/C_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.6937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -2035,7 +2035,7 @@
       (net 45 "Net-(U5C--)") (pinfunction "1") (pintype "passive") (tstamp 20de14b6-3544-43fd-bd9e-db3a048616e3))
     (pad "2" smd roundrect locked (at 0 1.016) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 41 "VG") (pinfunction "2") (pintype "passive") (tstamp 6e176086-ae4b-4699-9166-d4fc5e34c26e))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -2072,7 +2072,7 @@
       (net 12 "Net-(C8-Pad1)") (pinfunction "1") (pintype "passive") (tstamp d81030ab-94e7-44cd-bd11-81b28eba3c2f))
     (pad "2" smd roundrect locked (at 0 1.016 90) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 59 "Net-(D1-PadA)") (pinfunction "2") (pintype "passive") (tstamp c15d98b5-5cb4-46d9-bf52-69b1e84dbb4c))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -2113,22 +2113,22 @@
       (net 42 "Net-(U3A--)") (pinfunction "S") (pintype "passive") (tstamp 50f6a82f-8280-4d95-b191-066d2dc64015))
     (pad "W" thru_hole circle locked (at 2.54 0 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 11 "Net-(C7-Pad2)") (pinfunction "W") (pintype "passive") (tstamp 12d22305-399c-4214-8570-ac42f26c9178))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/daughterboard_23.7.wrl"
+    (model "${KIPRJMOD}/3d_models/daughterboard_23.7.wrl"
       (offset (xyz -1.27 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
-    (model "/home/maly/dvhx-kicad-library-2/wrl/P_RK09712200MC.wrl"
+    (model "${KIPRJMOD}/3d_models/P_RK09712200MC.wrl"
       (offset (xyz -2.25 -1 21.25))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 90 0 0))
     )
-    (model "/home/maly/dvhx-kicad-library-2/wrl/pot_knob_Davies_1900H.wrl" hide
+    (model "${KIPRJMOD}/3d_models/pot_knob_Davies_1900H.wrl" hide
       (offset (xyz 2.5 5 29))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
-    (model "/home/maly/dvhx-kicad-library-2/wrl/Box_yellow.wrl"
+    (model "${KIPRJMOD}/3d_models/Box_yellow.wrl"
       (offset (xyz 2.3 5.1 46.5))
       (scale (xyz 0.5 0.5 50))
       (rotate (xyz 0 0 0))
@@ -2165,7 +2165,7 @@
       (net 4 "/+9V") (pinfunction "1") (pintype "passive") (tstamp 353f5cf1-128c-42b5-9d6e-9c5372d6acdb))
     (pad "2" smd roundrect locked (at 0 1.016 90) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 13 "Net-(U7A--)") (pinfunction "2") (pintype "passive") (tstamp 0365289c-ab9a-483b-836b-b795bc0095f4))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -2215,7 +2215,7 @@
       (net 41 "VG") (pinfunction "+") (pintype "input") (tstamp 9a7be707-2576-4f07-8ec3-19cf79d17792))
     (pad "V" smd roundrect locked (at 1.195 -0.95) (size 0.6 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "/+9V") (pinfunction "V+") (pintype "power_in") (tstamp bc11cc89-1933-4d55-aa06-1555953ff260))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/SOT-23-5.wrl"
+    (model "${KIPRJMOD}/3d_models/SOT-23-5.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 90))
@@ -2260,7 +2260,7 @@
       (net 20 "Net-(D4-PadA)") (pinfunction "A") (pintype "passive") (tstamp 30bc7271-8ff8-4fee-a367-21c6fd030bf4))
     (pad "K" smd roundrect locked (at 0 1.066 270) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 21 "Net-(U6A--)") (pinfunction "K") (pintype "passive") (tstamp 657f9f1a-36ee-4554-9541-f5773abaad26))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/Diode_SOD-323.wrl"
+    (model "${KIPRJMOD}/3d_models/Diode_SOD-323.wrl"
       (offset (xyz 0.65 -0.85 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 -90))
@@ -2297,7 +2297,7 @@
       (net 23 "Net-(Decay1-PadS)") (pinfunction "1") (pintype "passive") (tstamp 8e2d37bb-ee2b-462e-ac59-cfdfcc5f265a))
     (pad "2" smd roundrect locked (at 0 1.016 180) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 14 "Net-(C9-PadP)") (pinfunction "2") (pintype "passive") (tstamp 4960fa07-e355-4001-9a51-2a9617b8acbc))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -2334,7 +2334,7 @@
       (net 48 "Net-(R27-Pad2)") (pinfunction "1") (pintype "passive") (tstamp 2f8dc94f-d633-4510-a5a5-38d3564be3f2))
     (pad "2" smd roundrect locked (at 0 1.016) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 46 "Net-(U5A-+)") (pinfunction "2") (pintype "passive") (tstamp 491e5f37-23f1-4dcf-a259-fbd1fea69b0b))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -2371,7 +2371,7 @@
       (net 15 "Net-(C10-PadN)") (pinfunction "1") (pintype "passive") (tstamp bef8bb55-ba7a-4dd0-9ed5-ab89482f371e))
     (pad "2" smd roundrect locked (at 0 1.016 180) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 44 "Net-(U5C-+)") (pinfunction "2") (pintype "passive") (tstamp ebaf8294-cb59-4dc1-a1df-d748d6378ad7))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -2408,7 +2408,7 @@
       (net 4 "/+9V") (pinfunction "1") (pintype "passive") (tstamp c4b40d5b-e7b2-4800-b886-f0066a42d7da))
     (pad "2" smd roundrect locked (at 0 1.016 90) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "GND") (pinfunction "2") (pintype "passive") (tstamp a36ed0ed-6430-4e5a-93e0-7bebeda3b6f6))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/C_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/C_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.6937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -2448,7 +2448,7 @@
       (net 15 "Net-(C10-PadN)") (pinfunction "N") (pintype "passive") (tstamp 49990441-c688-438f-99b0-01714fa6cb82))
     (pad "P" thru_hole circle locked (at 0 -1 90) (size 1.524 1.524) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 9 "BUF") (pinfunction "P") (pintype "passive") (tstamp cce17b9d-d0b2-4289-aae3-fcca8d1636c3))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/C_polarized_D4H7P2D0.45mm.wrl"
+    (model "${KIPRJMOD}/3d_models/C_polarized_D4H7P2D0.45mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 90))
@@ -2485,7 +2485,7 @@
       (net 4 "/+9V") (pinfunction "1") (pintype "passive") (tstamp a982639e-f592-453d-b9d8-721ab4b77df2))
     (pad "2" smd roundrect locked (at 0 1.016) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "GND") (pinfunction "2") (pintype "passive") (tstamp c3be7d26-7ca8-4fe9-8543-07b5e24a2d18))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/C_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/C_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.6937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -2522,7 +2522,7 @@
       (net 7 "Net-(U2A-+)") (pinfunction "1") (pintype "passive") (tstamp 2edc53a4-6153-46a8-bd75-2144bf9f7ae3))
     (pad "2" smd roundrect locked (at 0 1.016 270) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "/+9V") (pinfunction "2") (pintype "passive") (tstamp c1cf50cf-9dac-4c36-9b02-aa8c331915da))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -2559,7 +2559,7 @@
       (net 10 "Net-(C7-Pad1)") (pinfunction "1") (pintype "passive") (tstamp 4f61d963-3993-459c-ab95-c7b683ecc362))
     (pad "2" smd roundrect locked (at 0 1.016 90) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 21 "Net-(U6A--)") (pinfunction "2") (pintype "passive") (tstamp 36117608-c9f7-428f-a5d9-70f8318546fd))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -2695,7 +2695,7 @@
       (net 1 "5V") (pinfunction "C") (pintype "passive") (tstamp 384929bf-ecbc-4910-9ea8-d277b4acf91f))
     (pad "E" smd roundrect locked (at 0.95 0.984) (size 0.6 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 39 "Net-(Q4-PadE)") (pinfunction "E") (pintype "passive") (tstamp e236fdb8-2d1f-41e4-b6b3-9a6a1e82c88f))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/SOT-23.wrl"
+    (model "${KIPRJMOD}/3d_models/SOT-23.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 0))
@@ -2759,7 +2759,7 @@
       (net 26 "unconnected-(JDC1-PadNC)") (pinfunction "NC") (pintype "no_connect") (tstamp 7b4c3627-5748-4bad-ab53-9eac2996a861))
     (pad "NC2" thru_hole circle locked (at 3.5 4.7 270) (size 1.7 1.7) (drill 0.5) (layers "*.Cu" "*.Mask")
       (net 27 "unconnected-(JDC1-PadNC2)") (pinfunction "NC2") (pintype "no_connect") (tstamp a701f8f1-124c-4711-a735-bf2e001cb484))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/Connector_DC_005_2.0.wrl"
+    (model "${KIPRJMOD}/3d_models/Connector_DC_005_2.0.wrl"
       (offset (xyz 0 4.5 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 90))
@@ -2800,7 +2800,7 @@
       (net 3 "GND") (pinfunction "N") (pintype "passive") (tstamp 6491a19c-a8b0-4fd0-89b2-9e4df31408e4))
     (pad "P" thru_hole rect locked (at 0 -1 180) (size 1.524 1.524) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 7 "Net-(U2A-+)") (pinfunction "P") (pintype "passive") (tstamp e927d363-e3e8-4d60-b163-d9d44a6f5540))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/Capacitor_D5mm_L12mm_P2mm.wrl"
+    (model "${KIPRJMOD}/3d_models/Capacitor_D5mm_L12mm_P2mm.wrl"
       (offset (xyz 0 1 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 90))
@@ -2837,7 +2837,7 @@
       (net 3 "GND") (pinfunction "1") (pintype "passive") (tstamp 898e1719-5e40-4a95-8815-39d7f9d01122))
     (pad "2" smd roundrect locked (at 0 1.016 180) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 7 "Net-(U2A-+)") (pinfunction "2") (pintype "passive") (tstamp 3b10c03e-0e0c-4d8c-9a00-6efbd5274d02))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -2916,7 +2916,7 @@
       (net 41 "VG") (pinfunction "+") (pintype "input") (tstamp 2b74e448-6df7-4ef7-ae10-020d47e21eac))
     (pad "V" smd roundrect locked (at 1.195 -0.95 270) (size 0.6 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "/+9V") (pinfunction "V+") (pintype "power_in") (tstamp bd6a1a52-3ab6-4fbe-a01c-78f179c1c62f))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/SOT-23-5.wrl"
+    (model "${KIPRJMOD}/3d_models/SOT-23-5.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 90))
@@ -2952,7 +2952,7 @@
       (net 12 "Net-(C8-Pad1)") (pinfunction "1") (pintype "passive") (tstamp 20ecd4fa-fd6c-4fb8-b804-386005b90345))
     (pad "2" thru_hole circle locked (at 2.54 0) (size 1.5 1.5) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 13 "Net-(U7A--)") (pinfunction "2") (pintype "passive") (tstamp 7199f522-fca0-4671-9d25-32ee23e81c99))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/C_foil_W7.2H6.5T2.5P5.08D0.45mm.wrl"
+    (model "${KIPRJMOD}/3d_models/C_foil_W7.2H6.5T2.5P5.08D0.45mm.wrl"
       (offset (xyz 0 0 0.1))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
@@ -2988,7 +2988,7 @@
       (net 16 "Net-(C11-Pad1)") (pinfunction "1") (pintype "passive") (tstamp 40c3507a-8365-4fec-a961-f7672185e02a))
     (pad "2" thru_hole circle locked (at 2.54 0 90) (size 1.5 1.5) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 3 "GND") (pinfunction "2") (pintype "passive") (tstamp b6155857-e9bf-41b1-8bb1-1b8db53da8df))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/C_foil_W7.2H6.5T2.5P5.08D0.45mm.wrl"
+    (model "${KIPRJMOD}/3d_models/C_foil_W7.2H6.5T2.5P5.08D0.45mm.wrl"
       (offset (xyz 0 0 0.1))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
@@ -3054,7 +3054,7 @@
       (net 1 "5V") (pinfunction "1") (pintype "passive") (tstamp d2e85c59-f9c0-4191-99d9-7a470b87d9bd))
     (pad "2" smd roundrect locked (at 0 1.016 270) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "GND") (pinfunction "2") (pintype "passive") (tstamp 03e03faa-3696-4f48-8251-4040ad0d2a15))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/C_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/C_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.6937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -3091,7 +3091,7 @@
       (net 4 "/+9V") (pinfunction "1") (pintype "passive") (tstamp ee695dde-2803-41e9-96f7-96aa616fa0b7))
     (pad "2" smd roundrect locked (at 0 1.016) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "GND") (pinfunction "2") (pintype "passive") (tstamp c67486c1-2b9d-42e0-a1e7-008f2de5b347))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/C_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/C_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.6937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -3146,7 +3146,7 @@
       (net 1 "5V") (pinfunction "A") (pintype "passive") (tstamp 89cfe263-3093-4673-ba19-fe60ff558007))
     (pad "K" smd roundrect locked (at 0 1.65) (size 0.9 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1111111111)
       (net 4 "/+9V") (pinfunction "K") (pintype "passive") (tstamp 60ee76b5-cc22-4bef-b0b3-8d58690c7648))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/D_SOD-123.wrl"
+    (model "${KIPRJMOD}/3d_models/D_SOD-123.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -3196,7 +3196,7 @@
       (net 41 "VG") (pinfunction "+") (pintype "input") (tstamp fdab233f-0370-49d5-add6-9afe4e332e2d))
     (pad "V" smd roundrect locked (at 1.195 -0.95 270) (size 0.6 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "/+9V") (pinfunction "V+") (pintype "power_in") (tstamp d4c1b1a3-f10a-4d8e-94cc-fe0c51696355))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/SOT-23-5.wrl"
+    (model "${KIPRJMOD}/3d_models/SOT-23-5.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 90))
@@ -3253,7 +3253,7 @@
       (net 28 "Net-(JIN1-PadR)") (pinfunction "N") (pintype "power_out") (tstamp 9dd40579-2eb9-42c9-8a1d-fd69305d3e84))
     (pad "P" thru_hole circle locked (at 2.54 0 180) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask")
       (net 24 "Net-(JDC1-Pad2)") (pinfunction "P") (pintype "power_out") (tstamp fc526426-6413-48ae-af39-0487e094ec2f))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/Connector_JST_XH_female_2pin.wrl"
+    (model "${KIPRJMOD}/3d_models/Connector_JST_XH_female_2pin.wrl"
       (offset (xyz 5 2.35 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 -180))
@@ -3284,7 +3284,7 @@
       (net 59 "Net-(D1-PadA)") (pinfunction "A") (pintype "passive") (tstamp 7285ad9c-30ae-47a7-8cd9-bae242160155))
     (pad "K" thru_hole circle locked (at 0 1.27 180) (size 1.8 1.8) (drill 1) (layers "*.Cu" "*.Mask")
       (net 14 "Net-(C9-PadP)") (pinfunction "K") (pintype "passive") (tstamp e036d6e9-fdf4-4b2b-b91b-5d5f774d3d4c))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/Diode_DO-35_cathode_down.wrl"
+    (model "${KIPRJMOD}/3d_models/Diode_DO-35_cathode_down.wrl"
       (offset (xyz 0 -1.27 0.2))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 -90))
@@ -3325,22 +3325,22 @@
       (net 23 "Net-(Decay1-PadS)") (pinfunction "S") (pintype "passive") (tstamp 57b7c8db-61c7-4555-921d-90aea89a8715))
     (pad "W" thru_hole circle locked (at 2.54 0 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 3 "GND") (pinfunction "W") (pintype "passive") (tstamp 0a0cf102-5b56-4d08-a242-7063cf2617f3))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/daughterboard_23.7.wrl"
+    (model "${KIPRJMOD}/3d_models/daughterboard_23.7.wrl"
       (offset (xyz -1.27 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
-    (model "/home/maly/dvhx-kicad-library-2/wrl/P_RK09712200MC.wrl"
+    (model "${KIPRJMOD}/3d_models/P_RK09712200MC.wrl"
       (offset (xyz -2.25 -1 21.25))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 90 0 0))
     )
-    (model "/home/maly/dvhx-kicad-library-2/wrl/pot_knob_Davies_1900H.wrl" hide
+    (model "${KIPRJMOD}/3d_models/pot_knob_Davies_1900H.wrl" hide
       (offset (xyz 2.5 5 29))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
-    (model "/home/maly/dvhx-kicad-library-2/wrl/Box_yellow.wrl"
+    (model "${KIPRJMOD}/3d_models/Box_yellow.wrl"
       (offset (xyz 2.3 5.1 46.5))
       (scale (xyz 0.5 0.5 50))
       (rotate (xyz 0 0 0))
@@ -3433,7 +3433,7 @@
       (net 45 "Net-(U5C--)") (pinfunction "1") (pintype "passive") (tstamp 6af19fe7-dee1-46c2-a3dd-29a4ee629e0c))
     (pad "2" smd roundrect locked (at 0 1.016 180) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 49 "Net-(R29-Pad2)") (pinfunction "2") (pintype "passive") (tstamp bba7b796-ed95-4726-9dc6-f56498c4da7d))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -3480,12 +3480,12 @@
       (net 64 "USB_DP") (pinfunction "4") (pintype "passive") (tstamp 636fb7f8-691c-41ae-8287-164f5b5bf01b))
     (pad "5" thru_hole oval locked (at 10.16 0 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 3 "GND") (pinfunction "5") (pintype "passive") (tstamp 95f2555c-2bb7-438d-854c-8d4cafa4a9e1))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/Header_1x4_male_upright.wrl"
+    (model "${KIPRJMOD}/3d_models/Header_1x4_male_upright.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 0))
     )
-    (model "/home/maly/dvhx-kicad-library-2/wrl/Header_1x1_male_upright.wrl"
+    (model "${KIPRJMOD}/3d_models/Header_1x1_male_upright.wrl"
       (offset (xyz 10.16 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 0))
@@ -3522,7 +3522,7 @@
       (net 3 "GND") (pinfunction "1") (pintype "passive") (tstamp 8b0a3059-4e10-4b0f-8ef4-352b62b3cde3))
     (pad "2" thru_hole circle locked (at 0 -1.27) (size 2 2) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 3 "GND") (pinfunction "2") (pintype "passive") (tstamp 39d9689c-b2f3-41a1-b2ce-b697fde1fd9a))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/Test_point_loop_2.54mm.wrl"
+    (model "${KIPRJMOD}/3d_models/Test_point_loop_2.54mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 90))
@@ -3613,7 +3613,7 @@
       (net 36 "/JOUT") (pinfunction "T") (pintype "passive") (tstamp 4855d29c-5437-456c-87fa-415be161304b))
     (pad "TN" thru_hole circle locked (at 8.156 6.268) (size 3.2 3.2) (drill 1.4) (layers "*.Cu" "*.Mask")
       (net 37 "unconnected-(JOUT1-PadTN)") (pinfunction "TN") (pintype "passive+no_connect") (tstamp 80d7b397-ee94-44fb-b34c-af18a7da5c98))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/jack_6.35mm_female.wrl"
+    (model "${KIPRJMOD}/3d_models/jack_6.35mm_female.wrl"
       (offset (xyz 20 16.2 -9))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 -180))
@@ -3650,7 +3650,7 @@
       (net 5 "Net-(C2-Pad1)") (pinfunction "1") (pintype "passive") (tstamp 0b923c07-f447-4833-bed0-caadf8a2f9b9))
     (pad "2" smd roundrect locked (at 0 1.016 270) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 41 "VG") (pinfunction "2") (pintype "passive") (tstamp dc58bb1b-731a-472b-98f1-a0fdd3c0b03f))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -3695,7 +3695,7 @@
       (net 3 "GND") (pinfunction "N") (pintype "passive") (tstamp 208af0e5-a12c-47bf-99fa-8793f9ac0620))
     (pad "P" thru_hole rect locked (at 0 -1.27 180) (size 1.524 1.524) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 4 "/+9V") (pinfunction "P") (pintype "passive") (tstamp 36ef3c26-1130-4a9f-911a-835b6900cec1))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/Capacitor_D6.3mm_L15mm_P2.5mm.wrl"
+    (model "${KIPRJMOD}/3d_models/Capacitor_D6.3mm_L15mm_P2.5mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 90))
@@ -3732,7 +3732,7 @@
       (net 3 "GND") (pinfunction "1") (pintype "passive") (tstamp a7c6fb83-1c0c-4394-8bf9-591f50ab4580))
     (pad "2" smd roundrect locked (at 0 1.016 180) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 50 "/Guitar effect/OUT") (pinfunction "2") (pintype "passive") (tstamp 6a264e4c-fd5b-4e33-8bce-f9435d0b720e))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -3773,22 +3773,22 @@
       (net 2 "Net-(Bias1-PadS)") (pinfunction "S") (pintype "passive") (tstamp 58f599c7-1aeb-49e1-9714-325ce91803c1))
     (pad "W" thru_hole circle locked (at 2.54 0 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 1 "5V") (pinfunction "W") (pintype "passive") (tstamp 5e4c150d-621c-451b-b0d1-5def182e65f0))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/daughterboard_23.7.wrl"
+    (model "${KIPRJMOD}/3d_models/daughterboard_23.7.wrl"
       (offset (xyz -1.27 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
-    (model "/home/maly/dvhx-kicad-library-2/wrl/P_RK09712200MC.wrl"
+    (model "${KIPRJMOD}/3d_models/P_RK09712200MC.wrl"
       (offset (xyz -2.25 -1 21.25))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 90 0 0))
     )
-    (model "/home/maly/dvhx-kicad-library-2/wrl/pot_knob_Davies_1900H.wrl" hide
+    (model "${KIPRJMOD}/3d_models/pot_knob_Davies_1900H.wrl" hide
       (offset (xyz 2.5 5 29))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
-    (model "/home/maly/dvhx-kicad-library-2/wrl/Box_yellow.wrl"
+    (model "${KIPRJMOD}/3d_models/Box_yellow.wrl"
       (offset (xyz 2.3 5.1 46.5))
       (scale (xyz 0.5 0.5 50))
       (rotate (xyz 0 0 0))
@@ -3883,7 +3883,7 @@
       (net 21 "Net-(U6A--)") (pinfunction "1") (pintype "passive") (tstamp a25395a3-d3d8-4fb0-a356-542847eb6364))
     (pad "2" smd roundrect locked (at 0 1.016 180) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 22 "Net-(D5-PadA)") (pinfunction "2") (pintype "passive") (tstamp 16b445a0-2595-40df-a3f6-69bef835122d))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -3985,7 +3985,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "/home/maly/dvhx-kicad-library-2/wrl/USB_C.wrl"
+    (model "${KIPRJMOD}/3d_models/USB_C.wrl"
       (offset (xyz -4.5 -3.65 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 0))
@@ -4063,7 +4063,7 @@
       (net 1 "5V") (pinfunction "C") (pintype "passive") (tstamp c2ba142d-6890-4f6a-b84a-2cd93527783d))
     (pad "E" smd roundrect locked (at 0.95 0.984) (size 0.6 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 38 "Net-(Q3-PadE)") (pinfunction "E") (pintype "passive") (tstamp 7f66eac6-4a85-42a3-815c-062d82453137))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/SOT-23.wrl"
+    (model "${KIPRJMOD}/3d_models/SOT-23.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 0))
@@ -4264,7 +4264,7 @@
       (net 3 "GND") (pinfunction "1") (pintype "passive") (tstamp c79a7eac-310e-4bd6-8b53-2841c44d9e7e))
     (pad "2" smd roundrect locked (at 0 1.016 180) (size 1.2 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 48 "Net-(R27-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 02259416-e63c-437f-ab96-1fd82fc1a21a))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -4343,7 +4343,7 @@
       (net 5 "Net-(C2-Pad1)") (pinfunction "G") (pintype "input") (tstamp 6dbe5b09-81e3-4806-affb-9dd69f77eb28))
     (pad "S" smd roundrect locked (at 0.95 0.984 180) (size 0.6 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 9 "BUF") (pinfunction "S") (pintype "passive") (tstamp 9772388f-2be4-402b-80f1-f8e3af87778c))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/SOT-23.wrl"
+    (model "${KIPRJMOD}/3d_models/SOT-23.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 0))
@@ -4379,7 +4379,7 @@
       (net 10 "Net-(C7-Pad1)") (pinfunction "1") (pintype "passive") (tstamp c3496a96-35fc-4846-9d61-9ee606fec7fc))
     (pad "2" thru_hole circle locked (at 2.54 0 90) (size 1.5 1.5) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 11 "Net-(C7-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 9f4a52ec-0510-4a3c-85c6-8a2999fa3f0d))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/C_foil_W7.2H6.5T2.5P5.08D0.45mm.wrl"
+    (model "${KIPRJMOD}/3d_models/C_foil_W7.2H6.5T2.5P5.08D0.45mm.wrl"
       (offset (xyz 0 0 0.1))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
@@ -4436,7 +4436,7 @@
       (net 4 "/+9V") (pinfunction "A") (pintype "passive") (tstamp e49bfde4-0a9a-4248-bd44-3af7143f8834))
     (pad "K" thru_hole rect locked (at 0 1.337919 90) (size 1.524 1.524) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 54 "Net-(D98-PadK)") (pinfunction "K") (pintype "passive") (tstamp 48dc6182-74a1-455d-989e-86273ab76dc9))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/D_LED_3mm.wrl"
+    (model "${KIPRJMOD}/3d_models/D_LED_3mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -4527,7 +4527,7 @@
       (net 31 "/JIN") (pinfunction "T") (pintype "passive") (tstamp f85a17fd-e158-4a1b-9760-d2f558d30503))
     (pad "TN" thru_hole circle locked (at 8.156 6.268) (size 3.2 3.2) (drill 1.4) (layers "*.Cu" "*.Mask")
       (net 32 "unconnected-(JIN1-PadTN)") (pinfunction "TN") (pintype "passive+no_connect") (tstamp cc5b239d-d242-40d0-ab33-a80a3d3878b2))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/jack_6.35mm_female.wrl"
+    (model "${KIPRJMOD}/3d_models/jack_6.35mm_female.wrl"
       (offset (xyz 20 16.2 -9))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 -180))
@@ -4633,7 +4633,7 @@
       (net 61 "Net-(U8-VDD)") (pinfunction "1") (pintype "passive") (tstamp 737a68d9-db19-49ab-9318-d0fcad0fc128))
     (pad "2" smd roundrect locked (at 0.875 0 270) (size 0.9 0.95) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 3 "GND") (pinfunction "2") (pintype "passive") (tstamp 84e17163-ad7e-49c7-9f15-6e9a92192970))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/Capacitor_0603.wrl"
+    (model "${KIPRJMOD}/3d_models/Capacitor_0603.wrl"
       (offset (xyz -0.8 -0.4 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
@@ -4765,7 +4765,7 @@
       (net 57 "Net-(Q99-PadG)") (pinfunction "G") (pintype "input") (tstamp eecec56a-0d3d-4525-92f6-33b376e5dcb5))
     (pad "S" smd roundrect locked (at 0.95 -0.984 270) (size 0.6 1.45) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 4 "/+9V") (pinfunction "S") (pintype "passive") (tstamp bf9efb60-487c-4c54-b15e-d4e7cc940ea5))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/SOT-23.wrl"
+    (model "${KIPRJMOD}/3d_models/SOT-23.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 0))
@@ -4866,7 +4866,7 @@
       (net 67 "Net-(U1-CC2)") (pinfunction "CC2") (pintype "bidirectional") (tstamp 8c97a9d7-10d5-4d8a-8482-b98e219095d6))
     (pad "6" smd roundrect locked (at 1.07 0.95 180) (size 0.6 1.45) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 66 "Net-(U8-CFG)") (pinfunction "CFG") (pintype "open_collector") (tstamp 96bbaf6b-6816-4e97-bed6-3beee647eedb))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/SOT-23-6.wrl"
+    (model "${KIPRJMOD}/3d_models/SOT-23-6.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 90))
@@ -4903,7 +4903,7 @@
       (net 3 "GND") (pinfunction "1") (pintype "passive") (tstamp 13ec9f18-e166-4a18-94f0-e1d9e8abe572))
     (pad "2" smd roundrect locked (at 0 -1.016) (size 1.2 1.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 57 "Net-(Q99-PadG)") (pinfunction "2") (pintype "passive") (tstamp b91475fc-3fed-4d28-a38e-3a8e3416d082))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -4940,7 +4940,7 @@
       (net 25 "/VIN") (pinfunction "1") (pintype "passive") (tstamp 73879e29-cc2c-4690-b833-f56acf7cc460))
     (pad "2" smd roundrect locked (at 0 -1.016 90) (size 1.2 1.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 56 "Net-(Q99-PadD)") (pinfunction "2") (pintype "passive") (tstamp b477c0c5-6b6c-440d-8960-880f59d81f0f))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/R_0805.wrl"
+    (model "${KIPRJMOD}/3d_models/R_0805.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 -90))
@@ -4985,7 +4985,7 @@
       (net 57 "Net-(Q99-PadG)") (pinfunction "A") (pintype "passive") (tstamp e7900ef3-b42a-43e0-9784-7a554a462ad7))
     (pad "K" smd roundrect locked (at 0 -1.066 90) (size 1 1) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 4 "/+9V") (pinfunction "K") (pintype "passive") (tstamp b883786c-12a4-4738-a37e-96e6b27326d2))
-    (model "/home/maly/dvhx-kicad-library-2/wrl/Diode_SOD-323.wrl"
+    (model "${KIPRJMOD}/3d_models/Diode_SOD-323.wrl"
       (offset (xyz 0.65 -0.85 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 -90))
