@@ -1,0 +1,26 @@
+#!/usr/bin/env ngspicejs
+// Calculate price from BOM export
+// linter: ngspicejs-lint
+"use strict";
+
+var a = file_read_csv('pedal-snow-white-autowah-single.csv', true);
+var all = [];
+a.forEach((o) => {
+    if (o.UNIT_PRICE === 'DNI') {
+        return;
+    }
+    var f = (o.PRICE_FRACTION || '1/1').split('/');
+    f = f[0] / f[1];
+    var price = o.Qty * o.UNIT_PRICE * f;
+    //echo(o.Reference, price);
+    all.push({price, reference: o.Reference, value: o.Value});
+});
+
+var total = 0;
+all.sort((a,b) => b.price - a.price).forEach((o) => {
+    echo(o.price.toFixed(2) + ' ' + o.reference + ' ' + o.value);
+    total += o.price;
+});
+echo('Total: ' + total.toFixed(2));
+
+

@@ -30,6 +30,20 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
 - [gerbers.zip](https://raw.githubusercontent.com/dvhx/pedal-snow-white-autowah/refs/heads/master/kicad/gerbers.zip) - main PCB
 - [gerbers-pots.zip](https://raw.githubusercontent.com/dvhx/pedal-snow-white-autowah/refs/heads/master/kicad_pot_daugterboard/gerbers-pots.zip) - pot daugterboards (you can also use perfboard or stripboard)
 
+# BOM
+
+Most of the parts is available at LCSC. At [https://www.lcsc.com/bom](https://www.lcsc.com/bom) you can import this CSV file: [kicad/bom/bom_lcsc.csv], the price is approx. $17, if you are building more than 1 pedal increase the amount of LM13700.
+
+The rest of the parts is available at aliexpress:
+
+- [50kB Pot, $0.80/pcs](https://s.click.aliexpress.com/e/_c3w9c93V)
+- [1MC Pot, $0.80/pcs](https://s.click.aliexpress.com/e/_c3w9c93V)
+- [50kB Pot, $0.80/pcs](https://s.click.aliexpress.com/e/_c3w9c93V)
+- [100kB Pot, $0.80/pcs](https://s.click.aliexpress.com/e/_c3w9c93V)
+- [2x Lightpipe, $0.285/pcs](https://www.aliexpress.com/item/1005010409920827.html)
+- [Model Enclosure_125B, $7.85/pcs](https://s.click.aliexpress.com/e/_c33GoZ8r)
+- [Switch_3P2T Switch_3PDT, $2.13/pcs](https://s.click.aliexpress.com/e/_c2vpDqzN)
+
 # Photos
 
 ## PCB

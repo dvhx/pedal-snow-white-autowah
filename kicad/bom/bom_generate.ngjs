@@ -1,0 +1,123 @@
+#!/usr/bin/env ngspicejs
+// Generate bom_lcsc.csv and bom_aliexpress.html from kicad csv BOM export
+// linter: ngspicejs-lint
+"use strict";
+
+var a = file_read_csv('pedal-snow-white-autowah-single.csv', true);
+var short = {
+    "P_Daughterboard_Mono_Davies_1900H": "Pot"
+};
+var lcsc = {};
+var lcsc_descr = {};
+var lcsc_moq = {};
+var lcsc_unit_price = {};
+var stock = {
+    "R_0805": [],
+    "C_0805": [],
+    "R_0603": [],
+    "C_0603": [],
+};
+
+var ali = {};
+var ali_unit_price = {};
+
+echo_json(a[0]);
+
+// skip optional THT diode and USB decoy part
+a.filter(o => !['D1', 'J3', 'U1', 'U8'].includes(o.Reference))
+ .filter(s => !['ExtraCost', 'Hole', 'Test_point_D1.5_H0.5', 'Test_point_loop'].includes(s.Value)).forEach((o) => {
+    var ref = o.Reference;
+    var value = o.Value;
+    var url = o.URL;
+    var footprint = o.Footprint.split(':').at(-1);
+    footprint = short[footprint] || footprint;
+
+    if (stock[footprint]) {
+        stock[footprint].push(value);
+        return;
+    }
+
+    echo(ref, value, footprint, url);//, JSON.stringify(o, undefined, 4));
+
+    if (url.match('https://www.lcsc.com/')) {
+        var lcsc_id = url.match(/C[0-9]+/);
+        //lcsc.o.
+        echo(lcsc_id);
+        lcsc[lcsc_id] = lcsc[lcsc_id] || 0;
+        lcsc[lcsc_id]++;
+        lcsc_descr[lcsc_id] = value + ' ' + footprint;
+        lcsc_moq[lcsc_id] = parseFloat(o.MIN_ORDER);
+        lcsc_unit_price[lcsc_id] = parseFloat(o.UNIT_PRICE);
+        return;
+    }
+
+    if (url.match('aliexpress.com')) {
+        ali[url] = ali[url] || [];
+        ali[url].push(value + ' ' + footprint);
+        ali_unit_price[value + ' ' + footprint] = o.UNIT_PRICE;
+        return;
+    }
+
+    warn("unhandled: " + ref + " " + url);
+
+});
+
+// round amount to MOQ
+for (var k in lcsc) {
+    var count = lcsc[k];
+    var moq = lcsc_moq[k];
+    // must be at least moq
+    if (count < moq) {
+        echo('increasing count of', k, 'from', count, 'to', moq);
+        count = moq;
+    } else {
+        echo('ok', k, lcsc[k], lcsc_moq[k]);
+    }
+    // check if multiply of moq
+    if ((count / moq) % 1 !== 0) {
+        var ncount = moq * Math.ceil(count / moq);
+        echo('rounding', k, 'up from', count, 'to', ncount);
+        count = ncount;
+    }
+    // update
+    lcsc[k] = count;
+}
+
+// Create CSV that can be digested by LCSC bom import
+var bom_lcsc = [["Quantity", "LCSC Part Number(optional)"]];
+//var md = [];
+for (var k in lcsc) {
+    bom_lcsc.push([lcsc[k], k]);
+    //md.push('- [' + lcsc[k] + 'x ' + lcsc_descr[k] + ', $' + lcsc_unit_price[k]+ '/pcs](https://www.lcsc.com/product-detail/' + k + '.html)');
+}
+file_write_csv('bom_lcsc_autowah.csv', bom_lcsc);
+//file_write('bom_lcsc.md', md.join('\n'));
+
+// Create html page with aliexpress links
+var html = [];
+var md = [];
+for (var url in ali) {
+    ali[url].forEach((kind) => {
+        html.push('<li>' + kind + ', $' + ali_unit_price[kind]+ '/pcs - <a href="' + url + '">' + url + '</a></li>');
+        md.push('- [' + kind + ', $' + ali_unit_price[kind]+ '/pcs](' + url + ')');
+    });
+}
+file_write('bom_aliexpress.html', html.join('\n'));
+file_write('bom_aliexpress.md', md.join('\n'));
+
+//echo(JSON.stringify(lcsc, undefined, 4));
+//echo(JSON.stringify(lcsc_descr, undefined, 4));
+//echo(JSON.stringify(lcsc_moq, undefined, 4));
+//echo(JSON.stringify(ali, undefined, 4));
+
+
+
+/*
+var total = 0;
+all.sort((a,b) => b.price - a.price).forEach((o) => {
+    echo(o.price.toFixed(2) + ' ' + o.reference + ' ' + o.value);
+    total += o.price;
+});
+echo('Total: ' + total.toFixed(2));
+
+*/
