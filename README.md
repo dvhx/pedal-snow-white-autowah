@@ -32,9 +32,12 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
 
 # BOM
 
-Most of the parts is available at LCSC. At [https://www.lcsc.com/bom](https://www.lcsc.com/bom) you can import this CSV file: [kicad/bom/bom_lcsc.csv], the price is approx. $17, if you are building more than 1 pedal increase the amount of LM13700.
+Most of the parts is available at LCSC. At [https://www.lcsc.com/bom](https://www.lcsc.com/bom) you can import
+this CSV file: [kicad/bom/bom_lcsc.csv](kicad/bom/bom_lcsc.csv), the price is approx. $17,
+if you are building more than 1 pedal increase the amount of LM13700, audio jacks and opamps.
+All other parts should be enough for 5 pedals due to minimal ordering quantity.
 
-The rest of the parts is available at aliexpress:
+The rest of the parts is available on aliexpress:
 
 - [50kB Pot, $0.80/pcs](https://s.click.aliexpress.com/e/_c3w9c93V)
 - [1MC Pot, $0.80/pcs](https://s.click.aliexpress.com/e/_c3w9c93V)
