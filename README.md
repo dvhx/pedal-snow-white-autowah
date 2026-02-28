@@ -47,6 +47,8 @@ The rest of the parts is available on aliexpress:
 - [Model Enclosure_125B, $7.85/pcs](https://s.click.aliexpress.com/e/_c33GoZ8r)
 - [Switch_3P2T Switch_3PDT, $2.13/pcs](https://s.click.aliexpress.com/e/_c2vpDqzN)
 
+Total parts cost including shipping, PCB manufacturing, spray paint and artwork sticker is approx $50.
+
 # Photos
 
 ## PCB
