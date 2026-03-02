@@ -27,7 +27,7 @@ Snow White AutoWah (envelope filter) guitar pedal in 125B enclosure using layout
 
 # PCB
 
-[<img src="kicad/thumb/pcb.jpg">](kicad/pcb.jpg)
+[<img src="photo/pcb/thumb/pcb.jpg">](photo/pcb/pcb.jpg)
 
 # Gerbers
 
