@@ -47,6 +47,7 @@ The rest of the parts is available on aliexpress:
 - [1MC Pot, $0.80/pcs](https://s.click.aliexpress.com/e/_c3w9c93V)
 - [50kB Pot, $0.80/pcs](https://s.click.aliexpress.com/e/_c3w9c93V)
 - [100kB Pot, $0.80/pcs](https://s.click.aliexpress.com/e/_c3w9c93V)
+- [Pot knobs, $1/10pcs](https://s.click.aliexpress.com/e/_c4n3mVNp)
 - [2x Lightpipe, $0.285/pcs](https://www.aliexpress.com/item/1005010409920827.html)
 - [Model Enclosure_125B, $7.85/pcs](https://s.click.aliexpress.com/e/_c33GoZ8r)
 - [Switch_3P2T Switch_3PDT, $2.13/pcs](https://s.click.aliexpress.com/e/_c2vpDqzN)
