@@ -50,6 +50,8 @@ The rest of the parts is available on aliexpress:
 - [2x Lightpipe, $0.285/pcs](https://www.aliexpress.com/item/1005010409920827.html)
 - [Model Enclosure_125B, $7.85/pcs](https://s.click.aliexpress.com/e/_c33GoZ8r)
 - [Switch_3P2T Switch_3PDT, $2.13/pcs](https://s.click.aliexpress.com/e/_c2vpDqzN)
+- [0805 resistor kit, $4.18/1500pcs/60values](https://s.click.aliexpress.com/e/_c4WAuc7p)
+- [0805 capacitor kit, $4.51/720pcs/36values](https://s.click.aliexpress.com/e/_c3UD8Gzd)
 
 Total parts cost including shipping, PCB manufacturing, enclosure, spray paint and artwork sticker is approx $50.
 
